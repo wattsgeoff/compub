@@ -49,7 +49,7 @@ MIDDLEWARE = [
     "django.middleware.clickjacking.XFrameOptionsMiddleware",
 ]
 
-ROOT_URLCONF = "web_project.urls"
+ROOT_URLCONF = "compub.urls"
 
 TEMPLATES = [
     {
@@ -67,8 +67,8 @@ TEMPLATES = [
     },
 ]
 
-WSGI_APPLICATION = "web_project.wsgi.application"
-
+#WSGI_APPLICATION = "web_project.wsgi.application"
+WSGI_APPLICATION = "compub.wsgi.application"
 
 # Database
 # https://docs.djangoproject.com/en/4.2/ref/settings/#databases
